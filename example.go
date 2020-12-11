@@ -1,13 +1,5 @@
-# gonepnep
-Golang SDK for working with NeppedAPI (and SHARP)
+// Example for gonepnep SDK © GoldenXelenium
 
-## How to install
-```bash
-go get -u github.com/nmisec/gonepnep
-```
-
-## Usage example
-```golang
 package main
 
 import (
@@ -17,7 +9,7 @@ import (
 
 func main() {
 	// Creating a new NeppedAPI session
-	session := gonepnep.NewSession("your beautiful token")
+	session := gonepnep.NewSession("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvd25lcklEIjoiMzQ0MTM0NzExMTY3MTU2MjI0IiwiaWF0IjoxNjA3NjI1MTc2fQ.utqxS_Jl3YezACRzXjDhsHrqYfzM3IKhONzoX3MUc5A")
 
 	// Creating a new SHARP API session
 	sharp := gonepnep.NewSHARPSession(*session)
@@ -50,9 +42,3 @@ func main() {
 	}
 	fmt.Println(img.URL)
 }
-```
-
-## API Docs
-[NeppedAPI Images](https://api-docs.neppedcord.top/api/images)
-
-[NeppedAPI SHARP](https://api-docs.neppedcord.top/api/sharp)
