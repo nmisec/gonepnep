@@ -10,8 +10,8 @@ import (
 
 // Endpoints
 const (
-    ImageAPI string = "https://neppedcord.top/api/images/"
-    SHARPAPI string = "https://neppedcord.top/api/sharp/"
+    ImageAPI string = "https://api.neppedcord.top/images/"
+    SHARPAPI string = "https://api.neppedcord.top/sharp/"
 )
 
 // IsValidCategory category validation
